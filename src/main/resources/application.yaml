@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: "Save information 1.1"
+  banner:
+    location: banner.txt

@@ -1,2 +1,4 @@
 databaseChangeLog:
-  -
+  - include:
+      file: changelog/22.07.2024-init/22.07.2024-init.yaml
+      relativeToChangelogFile: true

@@ -1,0 +1,10 @@
+spring:
+  saveinformation:
+    otp:
+      retry-wait-time: 6 #in seconds
+      retry-count: 3
+      time-to-leave: 60 #in seconds
+  security:
+    token:
+      expiration: 86400
+      secret: J19Vd7AouKzWEgrA4QTid1SXxkfyWKGmSY5GKn4EtWdk9auIga44q6cdqgVNOgW4

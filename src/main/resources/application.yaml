@@ -3,3 +3,5 @@ spring:
     name: "Save information 1.1"
   banner:
     location: banner.txt
+  profiles:
+    active: local

@@ -1,0 +1,12 @@
+spring:
+  saveinformation:
+    otp:
+      retry-wait-time: 60 #in seconds
+      retry-count: 5
+      time-to-leave: 3600 #in seconds
+    notification:
+      sms:
+        eskiz: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjQzMjM2MzYsImlhdCI6MTcyMTczMTYzNiwicm9sZSI6InRlc3QiLCJzaWduIjoiNTU1ZTkwMTQ5NjdiODI2ZjhkMzg4ZTMxZjY0ZWVjYzJkM2E0NzBiY2RhYjg1OTE1ZmE0ODI0M2M0N2VjZjg0ZSIsInN1YiI6IjU5MDIifQ.YeiNBWzPyC-5LQKf9JvOMevPsP6FrON1A7Dibn7PzR0
+    security:
+      token:
+        expiration: 86400
